@@ -1,16 +1,19 @@
 package main
 
 import (
-	"fmt" // runtime es un paquete que maneja el sistema operativo
-	"godesde0/ejercicio"
-	"runtime"
+	//"godesde0/teclado"
+	//"runtime"
+	//"godesde0/variables"
+	//"godesde0/iteraciones"
+	"fmt"
+	"godesde0/file"
 )
 
 func main() {
 	//estado, testo, text := variables.ConviertoTexto(4343)
 	//fmt.Println(estado, testo, text)
 
-	if os := runtime.GOOS; os == "Windows_NT" || os == "OS X" {
+	/*if os := runtime.GOOS; os == "Windows_NT" || os == "OS X" {
 		fmt.Println("El sistema operativo es:", os)
 	} else {
 		fmt.Println("El sistema operativo no es Windows ni linux")
@@ -27,7 +30,15 @@ func main() {
 		fmt.Printf(" %s \n", os)
 	}
 
-	txt, text1 := ejercicio.Valores("150")
+	txt, text1 := ejercicio.Valores("7")
 	fmt.Println(txt, text1)
+
+	teclado.IngresoDatos()
+	iteraciones.IteracionesFor()
+	resultado := ejercicio.TablaMul()
+	fmt.Println(resultado)
+	file.File()
+	file.SumaTabla()*/
+	fmt.Println(file.ReadFile())
 
 }
