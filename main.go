@@ -35,7 +35,8 @@ func main() {
 	fmt.Println(resultado)
 	file.File()
 	file.SumaTabla()
-	fmt.Println(file.ReadFile())*/
-	funciones.Carculos()
+	fmt.Println(file.ReadFile())
+	funciones.Carculos()*/
+	funciones.LlamarClosures()
 
 }
