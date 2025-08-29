@@ -1,12 +1,8 @@
 package main
 
 import (
-	//"godesde0/teclado"
-	//"runtime"
-	//"godesde0/variables"
-	//"godesde0/iteraciones"
-	"fmt"
-	"godesde0/file"
+	//"godesde0/file"
+	"godesde0/funciones"
 )
 
 func main() {
@@ -38,7 +34,8 @@ func main() {
 	resultado := ejercicio.TablaMul()
 	fmt.Println(resultado)
 	file.File()
-	file.SumaTabla()*/
-	fmt.Println(file.ReadFile())
+	file.SumaTabla()
+	fmt.Println(file.ReadFile())*/
+	funciones.Carculos()
 
 }
