@@ -36,7 +36,8 @@ func main() {
 	file.File()
 	file.SumaTabla()
 	fmt.Println(file.ReadFile())
-	funciones.Carculos()*/
-	funciones.LlamarClosures()
+	funciones.Carculos()
+	funciones.LlamarClosures()*/
+	funciones.Exponencial(2)
 
 }
