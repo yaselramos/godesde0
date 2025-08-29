@@ -2,7 +2,8 @@ package main
 
 import (
 	//"godesde0/file"
-	"godesde0/funciones"
+	//"godesde0/funciones"
+	"godesde0/arreglos_slice"
 )
 
 func main() {
@@ -37,7 +38,9 @@ func main() {
 	file.SumaTabla()
 	fmt.Println(file.ReadFile())
 	funciones.Carculos()
-	funciones.LlamarClosures()*/
+	funciones.LlamarClosures()
 	funciones.Exponencial(2)
+	arreglos_slice.Arreglos()*/
+	arreglos_slice.Capacidad()
 
 }
