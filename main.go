@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesde0/webserver"
+	"godesde0/middlewares"
 )
 
 func main() {
@@ -62,5 +62,6 @@ func main() {
 		println("\nLa gorutina ha terminado")
 	}*/
 
-	webserver.StartServer()
+	//webserver.StartServer()
+	middlewares.MiMiddeleware()
 }
