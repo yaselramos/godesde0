@@ -1,7 +1,8 @@
 package main
 
 import (
-	"godesde0/defer_panic"
+	"fmt"
+	"godesde0/gorutines"
 )
 
 func main() {
@@ -47,6 +48,11 @@ func main() {
 	ejer_interfaces.HumanosRespirar(Persona2)*/
 	//defer_panic.Dedefer()
 	//defer_panic.EjemploPanic()
-	defer_panic.EjemploRecover()
+	//defer_panic.EjemploRecover()
+	go gorutines.MiNombreLentoo("Yasel Ramos Medina") //Con la palabra go se crea una gorutina
 
+	fmt.Println("Hola")
+	var input string
+	fmt.Scanln(&input)
+	fmt.Println("Fin del programa")
 }
