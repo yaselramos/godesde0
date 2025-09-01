@@ -1,8 +1,7 @@
 package main
 
 import (
-	"godesde0/ejer_interfaces"
-	"godesde0/modelos"
+	"godesde0/defer_panic"
 )
 
 func main() {
@@ -41,10 +40,13 @@ func main() {
 	funciones.Exponencial(2)
 	arreglos_slice.Arreglos()
 	mapas.MostrarMapas()
-	users.AltaUsuario()*/
+	users.AltaUsuario()
 	Persona1 := new(modelos.Hombre)
 	ejer_interfaces.HumanosRespirar(Persona1)
 	Persona2 := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirar(Persona2)
+	ejer_interfaces.HumanosRespirar(Persona2)*/
+	//defer_panic.Dedefer()
+	//defer_panic.EjemploPanic()
+	defer_panic.EjemploRecover()
 
 }
