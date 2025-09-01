@@ -3,7 +3,8 @@ package main
 import (
 	//"godesde0/file"
 	//"godesde0/funciones"
-	"godesde0/arreglos_slice"
+	//"godesde0/arreglos_slice"
+	"godesde0/mapas"
 )
 
 func main() {
@@ -41,6 +42,6 @@ func main() {
 	funciones.LlamarClosures()
 	funciones.Exponencial(2)
 	arreglos_slice.Arreglos()*/
-	arreglos_slice.Capacidad()
+	mapas.MostrarMapas()
 
 }
