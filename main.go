@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"godesde0/gorutines"
 )
 
@@ -49,10 +48,17 @@ func main() {
 	//defer_panic.Dedefer()
 	//defer_panic.EjemploPanic()
 	//defer_panic.EjemploRecover()
-	go gorutines.MiNombreLentoo("Yasel Ramos Medina") //Con la palabra go se crea una gorutina
+	/*go gorutines.MiNombreLentoo("Yasel Ramos Medina") //Con la palabra go se crea una gorutina
 
 	fmt.Println("Hola")
 	var input string
 	fmt.Scanln(&input)
-	fmt.Println("Fin del programa")
+	fmt.Println("Fin del programa")*/
+
+	canal := make(chan bool) // Crear un canal para sincronización
+	go gorutines.MiNombreLento("Yasel Ramos Medina", canal)
+	estado := <-canal // Esperar a que la gorutina termine
+	if estado {
+		println("\nLa gorutina ha terminado")
+	}
 }
