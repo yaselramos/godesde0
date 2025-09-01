@@ -4,7 +4,8 @@ import (
 	//"godesde0/file"
 	//"godesde0/funciones"
 	//"godesde0/arreglos_slice"
-	"godesde0/mapas"
+	//"godesde0/mapas"
+	"godesde0/users"
 )
 
 func main() {
@@ -41,7 +42,8 @@ func main() {
 	funciones.Carculos()
 	funciones.LlamarClosures()
 	funciones.Exponencial(2)
-	arreglos_slice.Arreglos()*/
-	mapas.MostrarMapas()
+	arreglos_slice.Arreglos()
+	mapas.MostrarMapas()*/
+	users.AltaUsuario()
 
 }
