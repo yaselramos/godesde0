@@ -1,11 +1,8 @@
 package main
 
 import (
-	//"godesde0/file"
-	//"godesde0/funciones"
-	//"godesde0/arreglos_slice"
-	//"godesde0/mapas"
-	"godesde0/users"
+	"godesde0/ejer_interfaces"
+	"godesde0/modelos"
 )
 
 func main() {
@@ -43,7 +40,11 @@ func main() {
 	funciones.LlamarClosures()
 	funciones.Exponencial(2)
 	arreglos_slice.Arreglos()
-	mapas.MostrarMapas()*/
-	users.AltaUsuario()
+	mapas.MostrarMapas()
+	users.AltaUsuario()*/
+	Persona1 := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirar(Persona1)
+	Persona2 := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirar(Persona2)
 
 }
