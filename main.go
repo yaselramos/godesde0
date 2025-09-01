@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesde0/gorutines"
+	"godesde0/webserver"
 )
 
 func main() {
@@ -55,10 +55,12 @@ func main() {
 	fmt.Scanln(&input)
 	fmt.Println("Fin del programa")*/
 
-	canal := make(chan bool) // Crear un canal para sincronización
+	/*canal := make(chan bool) // Crear un canal para sincronización
 	go gorutines.MiNombreLento("Yasel Ramos Medina", canal)
 	estado := <-canal // Esperar a que la gorutina termine
 	if estado {
 		println("\nLa gorutina ha terminado")
-	}
+	}*/
+
+	webserver.StartServer()
 }
